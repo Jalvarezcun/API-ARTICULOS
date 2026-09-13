@@ -1,7 +1,6 @@
 # API de Productos - Tarea
 
-API REST hecha con **Express (Node.js)** que expone las operaciones pedidas
-en el enunciado sobre un array de productos.
+API REST hecha con **Express (Node.js)** que expone las operaciones.
 
 ## Operaciones implementadas (en `ejercicios.js`)
 
@@ -15,26 +14,16 @@ en el enunciado sobre un array de productos.
 ## Cómo correrlo
 
 1. Instala las dependencias (solo Express):
-   ```
    npm install
-   ```
 2. Levanta el servidor:
-   ```
-   node server.js
-   ```
-   o
-   ```
-   npm start
-   ```
+   node server.js o  npm start
 3. Verás en la consola:
-   ```
    Servidor corriendo en http://localhost:3000
-   ```
 
 ## Endpoints
 
-| Método | Ruta                                  | Qué hace                                          |
-|--------|----------------------------------------|----------------------------------------------------|
+| Método | Ruta                                  | Qué accion reliza                                          |
+|--------|---------------------------------------|--------------------------------------------------|
 | GET    | `/api/productos`                      | Lista todos los productos                          |
 | GET    | `/api/productos/precio-mayor`         | Productos con precio > $100.000                    |
 | GET    | `/api/productos/valor-total`          | Valor total del inventario (precio × stock)        |
@@ -55,7 +44,6 @@ curl http://localhost:3000/api/productos/tecnologia
 curl http://localhost:3000/api/productos/categorias/conteo
 curl http://localhost:3000/api/productos/5
 ```
-
 ### Con Postman
 1. Método **GET**.
 2. Pega cualquiera de las URLs de la tabla de arriba (con el servidor corriendo).
