@@ -1,0 +1,12 @@
+{
+  "name": "api-productos-tienda",
+  "version": "1.0.0",
+  "description": "API REST de productos hecha con Express para tarea de clase",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
